@@ -1,6 +1,7 @@
 package chain;
 
 import java.util.HashMap;
+import java.util.UUID;
 
 public class TestVehicle {
 	
@@ -10,7 +11,7 @@ public class TestVehicle {
 		Truck truck = new Truck();
 		Person b = new Person();
 		MotorCycle motorcycle = new MotorCycle();
-		HashMap vehicleHash = new HashMap();
+		HashMap<UUID, Vehicle> vehicleHash = new HashMap<UUID, Vehicle>();
 		
 		car.transferOwnership(a);
 		car.setNumberofDoors(4);

@@ -6,8 +6,7 @@ public class MotorCycle extends Vehicle implements VehicleInterface {
 	
 	@Override
 	void transferOwnership(Person newOwner){
-		
-		
+			
 	}
 
 

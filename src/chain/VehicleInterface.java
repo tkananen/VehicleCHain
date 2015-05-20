@@ -1,6 +1,6 @@
 package chain;
 
-public interface VehicleInterface{
+public interface VehicleInterface  {
 	
 	
 }

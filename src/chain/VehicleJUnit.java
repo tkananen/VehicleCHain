@@ -3,6 +3,7 @@ package chain;
 import static org.junit.Assert.*;
 
 import java.util.HashMap;
+import java.util.UUID;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -10,7 +11,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class VehicleTest {
+public class VehicleJUnit {
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
@@ -35,15 +36,10 @@ public class VehicleTest {
 		Truck testTruck = new Truck();
 		Person b = new Person();
 		MotorCycle testMotorcycle = new MotorCycle();
-		HashMap testVehicleHash = new HashMap();
+		HashMap<UUID, Vehicle> testVehicleHash = new HashMap<UUID, Vehicle>();
 		
 		a.setPersonId(null);
 		b.setPersonId(null);
-		
-		
-		
-
-		
 		
 		
 		testCar.transferOwnership(a);
